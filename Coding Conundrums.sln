@@ -9,6 +9,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Average Mark", "Average Mar
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Sequence Reversal", "Sequence Reversal\Sequence Reversal.vcxproj", "{A9D06893-3BD7-477B-AC02-9F89C27635DC}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "NumberShuffle", "NumberShuffle\NumberShuffle.vcxproj", "{4A95E49C-A12C-4B11-9C81-9121746CEE2C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -41,6 +43,14 @@ Global
 		{A9D06893-3BD7-477B-AC02-9F89C27635DC}.Release|x64.Build.0 = Release|x64
 		{A9D06893-3BD7-477B-AC02-9F89C27635DC}.Release|x86.ActiveCfg = Release|Win32
 		{A9D06893-3BD7-477B-AC02-9F89C27635DC}.Release|x86.Build.0 = Release|Win32
+		{4A95E49C-A12C-4B11-9C81-9121746CEE2C}.Debug|x64.ActiveCfg = Debug|x64
+		{4A95E49C-A12C-4B11-9C81-9121746CEE2C}.Debug|x64.Build.0 = Debug|x64
+		{4A95E49C-A12C-4B11-9C81-9121746CEE2C}.Debug|x86.ActiveCfg = Debug|Win32
+		{4A95E49C-A12C-4B11-9C81-9121746CEE2C}.Debug|x86.Build.0 = Debug|Win32
+		{4A95E49C-A12C-4B11-9C81-9121746CEE2C}.Release|x64.ActiveCfg = Release|x64
+		{4A95E49C-A12C-4B11-9C81-9121746CEE2C}.Release|x64.Build.0 = Release|x64
+		{4A95E49C-A12C-4B11-9C81-9121746CEE2C}.Release|x86.ActiveCfg = Release|Win32
+		{4A95E49C-A12C-4B11-9C81-9121746CEE2C}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
