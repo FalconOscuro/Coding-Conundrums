@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30503.244
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Coding Conundrums", "Coding Conundrums\Coding Conundrums.vcxproj", "{1677A844-EF51-4FED-8BA7-18E83FAF0547}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Times Table", "Coding Conundrums\Coding Conundrums.vcxproj", "{1677A844-EF51-4FED-8BA7-18E83FAF0547}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Average Mark", "Average Mark\Average Mark.vcxproj", "{CF7410B5-5DD9-456B-8052-739907D9D65C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,14 @@ Global
 		{1677A844-EF51-4FED-8BA7-18E83FAF0547}.Release|x64.Build.0 = Release|x64
 		{1677A844-EF51-4FED-8BA7-18E83FAF0547}.Release|x86.ActiveCfg = Release|Win32
 		{1677A844-EF51-4FED-8BA7-18E83FAF0547}.Release|x86.Build.0 = Release|Win32
+		{CF7410B5-5DD9-456B-8052-739907D9D65C}.Debug|x64.ActiveCfg = Debug|x64
+		{CF7410B5-5DD9-456B-8052-739907D9D65C}.Debug|x64.Build.0 = Debug|x64
+		{CF7410B5-5DD9-456B-8052-739907D9D65C}.Debug|x86.ActiveCfg = Debug|Win32
+		{CF7410B5-5DD9-456B-8052-739907D9D65C}.Debug|x86.Build.0 = Debug|Win32
+		{CF7410B5-5DD9-456B-8052-739907D9D65C}.Release|x64.ActiveCfg = Release|x64
+		{CF7410B5-5DD9-456B-8052-739907D9D65C}.Release|x64.Build.0 = Release|x64
+		{CF7410B5-5DD9-456B-8052-739907D9D65C}.Release|x86.ActiveCfg = Release|Win32
+		{CF7410B5-5DD9-456B-8052-739907D9D65C}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
