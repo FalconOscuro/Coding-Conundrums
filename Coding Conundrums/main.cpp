@@ -5,6 +5,7 @@
 
 using namespace std;
 
+// Function which takes a number between 1 and 199 inclusive and returns that number in its written form
 string ConvertIntToString(int number)
 {
 	if (number < 1 || number > 199)
@@ -17,6 +18,7 @@ string ConvertIntToString(int number)
 	string prefixArray[10] = { "", "", "twen", "thir", "four", "fif", "six", "seven", "eigh", "nine" };
 	string numberArray[10] = { "", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine" };
 
+	// numbers from 10 to 19 are structured differently so must be handled differently
 	if (result.quot == 1)
 	{
 		switch (result.rem)
@@ -38,6 +40,7 @@ string ConvertIntToString(int number)
 		}
 	}
 
+	// Otherwise they all follow a wording convention
 	else
 	{
 		if (result.quot > 9)
@@ -57,6 +60,7 @@ string ConvertIntToString(int number)
 	return returned;
 }
 
+// Takes a written number between 1 and 12 inclusive and converts it to a number understanable by the computer, returns -1 if it was not convertible or out of the range
 int ConvertStringToInt(string numberString)
 {
 	string numbers[12] = { "one", "two", "three", "four", "five", "six", "seven", "eight", "nine", "ten", "eleven", "twelve" };
