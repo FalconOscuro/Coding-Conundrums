@@ -13,6 +13,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Number Shuffle", "NumberShu
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Shoe Popularity Contest", "Shoe Popularity Contest\Shoe Popularity Contest.vcxproj", "{3C428E78-D12A-4D16-948A-664F9E9FF265}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Total Carp", "Total Carp\Total Carp.vcxproj", "{103946F3-E854-4457-990E-F94E10BCED0A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -61,6 +63,14 @@ Global
 		{3C428E78-D12A-4D16-948A-664F9E9FF265}.Release|x64.Build.0 = Release|x64
 		{3C428E78-D12A-4D16-948A-664F9E9FF265}.Release|x86.ActiveCfg = Release|Win32
 		{3C428E78-D12A-4D16-948A-664F9E9FF265}.Release|x86.Build.0 = Release|Win32
+		{103946F3-E854-4457-990E-F94E10BCED0A}.Debug|x64.ActiveCfg = Debug|x64
+		{103946F3-E854-4457-990E-F94E10BCED0A}.Debug|x64.Build.0 = Debug|x64
+		{103946F3-E854-4457-990E-F94E10BCED0A}.Debug|x86.ActiveCfg = Debug|Win32
+		{103946F3-E854-4457-990E-F94E10BCED0A}.Debug|x86.Build.0 = Debug|Win32
+		{103946F3-E854-4457-990E-F94E10BCED0A}.Release|x64.ActiveCfg = Release|x64
+		{103946F3-E854-4457-990E-F94E10BCED0A}.Release|x64.Build.0 = Release|x64
+		{103946F3-E854-4457-990E-F94E10BCED0A}.Release|x86.ActiveCfg = Release|Win32
+		{103946F3-E854-4457-990E-F94E10BCED0A}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
