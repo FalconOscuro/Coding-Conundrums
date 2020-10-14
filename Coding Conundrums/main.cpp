@@ -1,5 +1,7 @@
-#include <iostream>
 #include <stdlib.h>
+#include <iostream>
+#include <sstream>
+#include <string>
 
 using namespace std;
 
@@ -55,15 +57,59 @@ string ConvertIntToString(int number)
 	return returned;
 }
 
-int main()
+int ConvertStringToInt(string numberString)
 {
-	int input;
+	string numbers[12] = { "one", "two", "three", "four", "five", "six", "seven", "eight", "nine", "ten", "eleven", "twelve" };
 
-	cout << "Input a number from 1 - 12: ";
-	cin >> input;
-	string inputAsString = ConvertIntToString(input);
-	cout << endl;
+	for (int i = 0; i < 12; i++)
+		if (numbers[i] == numberString)
+			return i + 1;
 
-	for (int i = 1; i < 13; i ++)
-		cout << ConvertIntToString(i) << " times " << inputAsString << " is " << ConvertIntToString(i * input) << endl;
+	return -1;
+}
+
+void main()
+{
+	string input;
+
+	while (true)
+	{
+		int number = 0;
+
+		while (true)
+		{
+			cout << "Input a number from 1 - 12: ";
+			getline(cin, input);
+			cout << endl;
+
+			stringstream myStream(input);
+
+			if (myStream >> number)
+				if (number > 0 && number < 13)
+					break;
+
+			for (uint64_t i = 0; i < input.size(); i++)
+				input[i] = tolower(input[i]);
+
+			string numbers[12] = { "one", "two", "three", "four", "five", "six", "seven", "eight", "nine", "ten", "eleven", "twelve" };
+
+			number = ConvertStringToInt(input);
+			if (number > 0)
+				break;
+
+			cout << "Invalid input plaease try again" << endl;
+		}
+
+		string inputAsString = ConvertIntToString(number);
+		for (int i = 1; i < 13; i++)
+			cout << ConvertIntToString(i) << " times " << inputAsString << " is " << ConvertIntToString(i * number) << endl;
+
+		string quitting;
+		cout << "Run again (Y/N)? ";
+		getline(cin, quitting);
+		cout << endl;
+
+		if (quitting == "n" || quitting == "N")
+			return;
+	}
 }
